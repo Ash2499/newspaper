@@ -1,0 +1,51 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 14% 43% 43%;
+    grid-gap: 1em;
+    border: 1px solid transparent;
+}
+
+header {
+    font-size: 50px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 35px;
+}
+
+.two {
+    column-count: 1;
+    text-align: center;
+    border: solid;
+    background-color: rgb(245, 183, 214);
+}
+
+#crowded {
+    column-count: 2;
+}
+
+.three {
+    column-count: 2;
+}
+
+.four {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    
+}
+
+#f {
+    text-align: center;
+    font-size: 50px;
+}
+
+#fx {
+    column-count: 4;
+}
+
+.one{
+    padding: 3em;
+    grid-row:1/3;
+}
+
